@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyrwk1ksu22j8"]
+
+[ext_resource type="Texture2D" uid="uid://gmplgkjikxy1" path="res://assets/lotoball.png" id="1_cxlvu"]
+[ext_resource type="FontFile" uid="uid://cedaxci53qbjt" path="res://assets/Fonts/04b.ttf" id="2_f7cbr"]
+
+[node name="Ball" type="Sprite2D"]
+self_modulate = Color(0.786578, 0.182229, 0.407375, 1)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("1_cxlvu")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -153.333
+offset_top = -120.0
+offset_right = 184.667
+offset_bottom = 80.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 29
+theme_override_fonts/font = ExtResource("2_f7cbr")
+theme_override_font_sizes/font_size = 200
+text = "---"
+horizontal_alignment = 1
+vertical_alignment = 1

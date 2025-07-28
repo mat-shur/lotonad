@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://covv31uaww7x6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6yfoq"]
+bg_color = Color(0.963529, 0.324146, 0.621545, 1)
+
+[resource]
+Window/styles/embedded_unfocused_border = SubResource("StyleBoxFlat_6yfoq")
